@@ -8,7 +8,7 @@ for (let i = 1 ; i <= 100 ; i++){
     liElement.classList.add('box');
 
     const newElement = document.createElement('div');
-    newElement.append('#98');
+    newElement.append(i);
     newElement.classList.add('class-wrapper');
 
     if ( i % 15 === 0 ) {
