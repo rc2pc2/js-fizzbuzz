@@ -9,8 +9,7 @@ for (let i = 1 ; i <= 100 ; i++){
 
     const newElement = document.createElement('div');
     newElement.append('#98');
-    newElement.classList.add('gina');
-
+    newElement.classList.add('class-wrapper');
 
     if ( i % 15 === 0 ) {
         console.log('FizzBuzz');
